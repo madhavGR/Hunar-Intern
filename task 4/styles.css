@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.about-us-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0e6e6;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-section {
+    max-width: 50%;
+    padding-left: 20px;
+}
+
+.text-section h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.text-section h2 {
+    font-size: 1.5rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.text-section p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.text-section button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-section button:hover {
+    background-color: #333;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f78f50;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+}
+
+.info-box {
+    text-align: center;
+}
+
+.info-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
